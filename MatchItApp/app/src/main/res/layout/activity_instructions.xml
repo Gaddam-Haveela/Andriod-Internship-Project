@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Instructions"
+        android:textStyle="bold"
+        android:textSize="33dp"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:id="@+id/instruction"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) Start the game."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Turn the grids according to your turns."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3) Match the same group of traits by turning the grids. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4) Blue colour indicates the turns of the player. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5) Whenever blue colour indicates the corresponding player needs to turn the grids. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6) Score is added for every correct match to the respective player or else the control shifts to the next player. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"/>
+
+    <Button
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FF5722"
+        android:text=" BACK " />
+
+
+</LinearLayout>

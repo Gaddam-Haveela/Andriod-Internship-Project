@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Help"
+        android:textStyle="bold"
+        android:textSize="33dp"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:id="@+id/instruction"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) Focus on the turns as well as the grids."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Try to remember the grids of similar images."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Match the grids with similar traits using memory."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        android:textColor="#3F51B5"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" BACK"
+        android:layout_marginTop="50dp"
+        android:background="#FF5722"
+        android:id="@+id/game"/>
+
+
+</LinearLayout>
